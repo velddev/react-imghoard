@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/nav'
 import ImageList from '../components/imageListing'
+import UploadModal from "../components/uploadModal"
 import '../styles/style.scss'
 
 const Home = () => (
@@ -13,6 +14,7 @@ const Home = () => (
     </Head>
     
     <div className="container">
+    <UploadModal>
     <Nav/>     
       <div className='hero content is-dark'>
         <section className="section">
@@ -34,8 +36,9 @@ const Home = () => (
               <ImageList>
               </ImageList>
             </a>
+          </div>
         </div>
-      </div>
+      </UploadModal>
     </div>
   </div>
 )

@@ -14,7 +14,7 @@ const Nav = () => (
     <div className="navbar-menu is-right">
       <div className="navbar-end">
         <div className="navbar-item">
-          <a>UPLOAD</a>
+          <a>Upload</a>
         </div>
       </div>
     </div>
